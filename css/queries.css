@@ -1,0 +1,28 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1440px (Large Laptops) */
+/**************************/
+@media (max-width: 90em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/**************************/
+/* BELOW 900px */
+/**************************/
+@media (max-width: 56.25em) {
+    .testimonial-card {
+        min-width: 32.7rem;
+        width: 50%;
+        height: 100%;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
